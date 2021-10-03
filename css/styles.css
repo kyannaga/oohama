@@ -1,0 +1,119 @@
+body {
+  margin: 0;
+  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* header */
+
+header {
+  background: rgb(240, 252, 228);
+  color: black;
+}
+
+header img {
+  border-radius: 50%;
+}
+
+header h1 {
+  font-size: 40px;
+}
+
+header .container {
+  width: 400px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+header .container div {
+  padding: 0 10px;
+ } 
+
+header h2 {
+  text-align: center;
+}
+header .container2 {
+  width: 400px;
+  margin: 0 auto;
+  display: flex;
+  outline:  1px  solid green;
+  padding: 10px 80px;
+  font-weight: bold;
+  border-radius: 20px;
+  line-height: 2.2;
+}
+
+header .p1 {
+  padding: 20px;
+}
+
+header .p2 {
+  padding: 20px;
+}
+
+/* section */
+
+
+section ,h1 
+section ,p 
+section ,h2 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+} 
+
+section img {
+  width: 60%;
+  border-radius: 20px;
+}
+
+.purpose {
+  margin: 80px;
+}
+
+.box  {
+  background: rgb(240, 252, 228);
+}
+
+.block1 .box {
+  padding: 40px;
+  margin: 0 80px;
+  border-radius: 20px;
+}
+
+.block1 p {
+  line-height: 2.2;
+}
+
+.block1 section {
+  padding: 50px 0;
+}
+
+.event {
+  margin: 80px;
+}
+
+.box2  {
+  background: rgb(240, 252, 228);
+}
+
+.block2 .box2 {
+  padding: 40px;
+  margin: 0 80px;
+  border-radius: 20px;
+}
+
+.block2 p {
+  line-height: 2.2;
+}
+
+.block2 section {
+  padding: 50px 0;
+}
+
+span {
+  color: red;
+}
+
+

@@ -1,6 +1,5 @@
 body {
   margin: 0;
-  font-size: 16px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -116,4 +115,46 @@ span {
   color: red;
 }
 
+.block3 p {
+  margin: 80px;
+}
 
+.sns {
+  padding: 40px;
+}
+.sns  ul {
+  width: 500px;
+  height: 200px;
+  list-style: none;
+  display: flex;
+  outline: solid 1px green;
+  border-radius: 20px;
+  margin: 0 auto;
+  font-size: 25px;
+  line-height: 2.2;
+  align-items: center;
+}
+
+.insta {
+  padding: 10px 55px;
+}
+
+.twitter {
+  padding:  10px 55px;
+}
+
+a:hover {
+  text-decoration: none;
+  opacity: 0.5;
+}
+
+/* footer */
+
+footer {
+  background: rgb(240, 252, 228);
+  text-align: center;
+}
+
+small {
+  color: rgb(148, 147, 147);
+}
